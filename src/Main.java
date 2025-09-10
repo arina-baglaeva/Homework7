@@ -75,11 +75,10 @@ public class Main {
         //7 task
         int numFriday = 5;
         int nDay =1;
-        System.out.println("Сегодня пятница, " +numFriday+"-е число. Необходимо подготовить отчет");
         while(nDay <31){
-            if(nDay %7==0 && numFriday+7<31) {
-                numFriday += 7;
+            if(nDay %7==0) {
                 System.out.println("Сегодня пятница, " + numFriday + "-е число. Необходимо подготовить отчет");
+                numFriday += 7;
             }
             nDay++;
         }
