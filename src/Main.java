@@ -73,14 +73,10 @@ public class Main {
         System.out.println("Василий за 9 лет накопит "+contribution+" рублей.");
         System.out.println();
         //7 task
-        int numFriday = 5;
-        int nDay =1;
-        while(nDay <31){
-            if(nDay %7==0) {
-                System.out.println("Сегодня пятница, " + numFriday + "-е число. Необходимо подготовить отчет");
-                numFriday += 7;
-            }
-            nDay++;
+        int numFriday = 3;
+        while(numFriday <=31){
+            System.out.println("Сегодня пятница, " + numFriday + "-е число. Необходимо подготовить отчет");
+            numFriday += 7;
         }
         System.out.println();
         //8 task
